@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "nikhilPortfolio",
-  "homepage": ".home",
+  "homepage": ".",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",

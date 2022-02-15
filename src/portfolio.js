@@ -21,7 +21,7 @@ const seo = {
 const greeting = {
   title: "Nikhil Shakya",
   logo_name: "Nikhilshakya",
-  nickname: "devmanush",
+  nickname: "Full stack web developer.",
   subTitle:
     "Self-motivated, collaborative, good team-player and always thrive to work on ened to end projects and curious to work with experts in computer programming. Looking forward to working with an organisation that utilises these skills to contribute to the organization's success.",
   resumeLink:
@@ -699,6 +699,10 @@ const contactPageData = {
   phoneSection: {
     title: "Phone Number",
     subtitle: "+918882398520",
+  },
+  emailSection: {
+    title: "Email Address",
+    subtitle: "shakyanikhil12345@gmail.com",
   },
 };
 

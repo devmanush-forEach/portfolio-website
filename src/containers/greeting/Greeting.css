@@ -42,17 +42,25 @@
   line-height: 0px;
   font-family: "Google Sans Bold Italic";
 }
+.portfolio-repo-btn-div{
+  display: flex;
+  gap: 30px;
+
+}
 
 .greeting-text-p {
-  font-size: 40px;
+  font-size: 20px;
   line-height: 40px;
   margin-right: 40px;
   font-family: "Google Sans Medium";
 }
 
-.greeting-image-div > * {
+.greeting-image-div{
+  /* border: 1px solid red; */
+  padding-top: 40px;
   max-width: 100%;
   height: auto;
+  text-align: center;
 }
 
 /* Media Query */

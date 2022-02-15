@@ -59,6 +59,10 @@
   height: auto;
 }
 
+.profile_pic{
+  border-radius: 400px;
+}
+
 .blog-heading-img-div > * {
   max-width: 100%;
   height: auto;

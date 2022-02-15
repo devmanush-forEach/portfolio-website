@@ -4,7 +4,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
-import FeelingProud from "./FeelingProud";
+// import FeelingProud from "./FeelingProud";
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -35,19 +35,31 @@ export default function Greeting(props) {
                   theme={theme}
                   className="portfolio-repo-btn"
                 />
+                <Button
+                  text="See My Resume"
+                  newTab={true}
+                  href="https://drive.google.com/file/d/1LzBOLBVnLtX-HGY37Tzz7MZ_yorYdEAf/view?usp=sharing"
+                  theme={theme}
+                  className="portfolio-repo-btn"
+                />
               </div>
-              {/* <div className="button-greeting-div">
-              <Button text="Contact me" href="#contact" />
-              <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
-            </div> */}
+              <div className="button-greeting-div">
+                
+              {/* <Button text="Contact me" href="#" /> */}
+              {/* <Button text="See my resume" newTab={true} href={.} /> */}
+            </div>
             </div>
           </div>
           <div className="greeting-image-div">
-            {/* <img
-							alt="saad sitting on table"
-							src={require("../../assests/images/feelingProud.svg")}
-						></img> */}
-            <FeelingProud theme={theme} />
+            {/* <img src="../../assests/images/mypic.jpg" alt=""/> */}
+            <div className="">
+
+              <img className="profile_img"
+                alt="saad sitting on table"
+                src={require("../../assests/images/my_pic.png")}
+              ></img>
+            </div>
+            {/* <FeelingProud theme={theme} /> */}
           </div>
         </div>
       </div>

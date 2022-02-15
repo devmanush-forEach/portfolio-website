@@ -31,8 +31,9 @@ class SoftwareSkill extends React.Component {
                       className="iconify"
                       data-icon={logo.fontAwesomeClassname}
                       style={logo.style}
-                      data-inline="false"
+                      data-inline="true"
                     ></span>
+                    <h3 className="skillName">{logo.skillName}</h3>
                   </li>
                 </OverlayTrigger>
               );

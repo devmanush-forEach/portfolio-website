@@ -4,16 +4,17 @@ import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import BlogsImg from "./BlogsImg";
+// import BlogsImg from "./BlogsImg";
 import AddressImg from "./AddressImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 
 const ContactData = contactPageData.contactSection;
-const blogSection = contactPageData.blogSection;
+// const blogSection = contactPageData.blogSection;
 const addressSection = contactPageData.addressSection;
 const phoneSection = contactPageData.phoneSection;
+const emailSection = contactPageData.emailSection;
 
 class Contact extends Component {
   render() {
@@ -25,8 +26,12 @@ class Contact extends Component {
           <Fade bottom duration={1000} distance="40px">
             <div className="contact-heading-div">
               <div className="contact-heading-img-div">
-                <img
+                {/* <img
                   src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
+                  alt=""
+                /> */}
+                <img className="profile_pic"
+                  src={require(`../../assests/images/mypic.png`)}
                   alt=""
                 />
               </div>
@@ -99,18 +104,6 @@ class Contact extends Component {
                   className="address-heading-text"
                   style={{ color: theme.text }}
                 >
-                  {addressSection["title"]}
-                </h1>
-                <p
-                  className="contact-header-detail-text subTitle"
-                  style={{ color: theme.secondaryText }}
-                >
-                  {addressSection["subtitle"]}
-                </p>
-                <h1
-                  className="address-heading-text"
-                  style={{ color: theme.text }}
-                >
                   {phoneSection["title"]}
                 </h1>
                 <p
@@ -118,6 +111,30 @@ class Contact extends Component {
                   style={{ color: theme.secondaryText }}
                 >
                   {phoneSection["subtitle"]}
+                </p>
+                <h1
+                  className="address-heading-text"
+                  style={{ color: theme.text }}
+                >
+                  {emailSection["title"]}
+                </h1>
+                <p
+                  className="contact-header-detail-text subTitle"
+                  style={{ color: theme.secondaryText }}
+                >
+                  {emailSection["subtitle"]}
+                </p>
+                <h1
+                  className="address-heading-text"
+                  style={{ color: theme.text }}
+                >
+                  {addressSection["title"]}
+                </h1>
+                <p
+                  className="contact-header-detail-text subTitle"
+                  style={{ color: theme.secondaryText }}
+                >
+                  {addressSection["subtitle"]}
                 </p>
                 <div className="address-btn-div">
                   <Button

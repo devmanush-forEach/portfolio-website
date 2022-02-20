@@ -1,11 +1,46 @@
+.project-detail-div{
+  border: 1px solid black;
+  width: 90vw;
+  min-height: 350px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px;
+  cursor: pointer;
+}
+
+.project-img-div{
+  width: 400px;
+  min-width: 200px;
+  border: 1px solid teal;
+  padding: 3px;
+  background-color: rgb(4, 78, 78);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project-img-div:hover{
+  width: 420px;
+  /* max-height: min-content; */
+}
+
+.project-img-div img{
+  width: 100%;
+  /* min-height: 250px; */
+}
+
 .repo-card-div {
   color: rgb(88, 96, 105);
-  background-color: rgb(255, 255, 255);
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+  min-width: 800px;
+  max-width: 800px;
+  /* background-color: rgb(255, 255, 255); */
+  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px; */
   padding: 2rem;
   cursor: pointer;
 }
-.repo-card-div:hover {
+.project-detail-div:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
 }
 

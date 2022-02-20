@@ -30,6 +30,10 @@
   box-shadow: 5px 5px 5px #d9dbdf;
 }
 
+.card-img img{
+  border-radius: 200px;
+}
+
 .body-header {
   max-width: inherit;
   display: flex;

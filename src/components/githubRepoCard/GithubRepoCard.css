@@ -1,6 +1,6 @@
 .project-detail-div{
   border: 1px solid black;
-  width: 90vw;
+  width: 85vw;
   min-height: 350px;
   background-color: rgb(255, 255, 255);
   display: flex;
@@ -9,6 +9,7 @@
   align-items: center;
   padding: 25px;
   cursor: pointer;
+  margin: auto;
 }
 
 .project-img-div{
@@ -33,8 +34,8 @@
 
 .repo-card-div {
   color: rgb(88, 96, 105);
-  min-width: 800px;
   max-width: 800px;
+  
   /* background-color: rgb(255, 255, 255); */
   /* box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px; */
   padding: 2rem;
@@ -129,7 +130,15 @@
   margin-right: 0px;
 }
 
+@media (min-width : 1200px ){
+  .repo-card-div{
+    min-width: 700px;
+  }
+}
+
 @media (max-width: 768px) {
+
+  
   .repo-name {
     font-size: 16px;
   }

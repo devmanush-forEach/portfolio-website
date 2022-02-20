@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Nikhil's Portfolio",
   description:
-    "Self-motivated, collaborative, good team-player and always thrive to work on ened to end projects and curious to work with experts in computer programming. Looking forward to working with an organisation that utilises these skills to contribute to the organization's success.",
+    "Self-motivated, collaborative, good team-player and always thrive to work on end to end projects and curious to work with experts in computer programming. Looking forward to working with an organisation that utilises these skills to contribute to the organization's success.",
   og: {
     title: "Nikhil Shakya Portfolio",
     type: "website",
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "Nikhilshakya",
   nickname: "Full stack web developer.",
   subTitle:
-    "Self-motivated, collaborative, good team-player and always thrive to work on ened to end projects and curious to work with experts in computer programming. Looking forward to working with an organisation that utilises these skills to contribute to the organization's success.",
+    "Self-motivated, collaborative, good team-player and always thrive to work on end to end projects and curious to work with experts in computer programming. Looking forward to working with an organisation that utilises these skills to contribute to the organization's success.",
   resumeLink:
     "https://drive.google.com/file/d/1LzBOLBVnLtX-HGY37Tzz7MZ_yorYdEAf/view?usp=sharing",
 

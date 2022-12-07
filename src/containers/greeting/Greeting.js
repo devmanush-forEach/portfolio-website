@@ -38,25 +38,24 @@ export default function Greeting(props) {
                 <Button
                   text="See My Resume"
                   newTab={true}
-                  href="https://drive.google.com/file/d/1LzBOLBVnLtX-HGY37Tzz7MZ_yorYdEAf/view?usp=sharing"
+                  href="https://drive.google.com/file/d/12DqW1JAWvmbuKeBkA7iBlVDYIRIh1Aiz/view?usp=share_link"
                   theme={theme}
                   className="portfolio-repo-btn"
                 />
               </div>
               <div className="button-greeting-div">
-                
-              {/* <Button text="Contact me" href="#" /> */}
-              {/* <Button text="See my resume" newTab={true} href={.} /> */}
-            </div>
+                {/* <Button text="Contact me" href="#" /> */}
+                {/* <Button text="See my resume" newTab={true} href={.} /> */}
+              </div>
             </div>
           </div>
           <div className="greeting-image-div">
             {/* <img src="../../assests/images/mypic.jpg" alt=""/> */}
             <div className="">
-
-              <img className="profile_img"
+              <img
+                className="profile_img"
                 alt="saad sitting on table"
-                src={require("../../assests/images/my_pic.png")}
+                src={require("../../assests/images/mypic.png")}
               ></img>
             </div>
             {/* <FeelingProud theme={theme} /> */}

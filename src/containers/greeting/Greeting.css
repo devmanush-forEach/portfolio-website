@@ -30,6 +30,12 @@
   margin-top: 20px;
 }
 
+.profile_img {
+  width: 80%;
+  /* border: 1px solid red; */
+  border-radius: 80%;
+}
+
 .greeting-text {
   margin-top: 80px;
   font-size: 70px;
@@ -42,10 +48,9 @@
   line-height: 0px;
   font-family: "Google Sans Bold Italic";
 }
-.portfolio-repo-btn-div{
+.portfolio-repo-btn-div {
   display: flex;
   gap: 30px;
-
 }
 
 .greeting-text-p {
@@ -55,7 +60,7 @@
   font-family: "Google Sans Medium";
 }
 
-.greeting-image-div{
+.greeting-image-div {
   /* border: 1px solid red; */
   padding-top: 40px;
   max-width: 100%;

@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Nikhil's Portfolio",
   description:
-    "Self-motivated, collaborative, good team-player and always thrive to work on end to end projects and curious to work with experts in computer programming. Looking forward to working with an organisation that utilises these skills to contribute to the organization's success.",
+    "Adaptable, enthusiastic, self-motivated, collaborative, good team-player and always thrive to work on end to end projects and curious to work with experts in computer programming. Looking forward to working with an organisation that utilises these skills to contribute to the organization's success.",
   og: {
     title: "Nikhil Shakya Portfolio",
     type: "website",
@@ -21,13 +21,14 @@ const seo = {
 const greeting = {
   title: "Nikhil Shakya",
   logo_name: "Nikhilshakya",
-  nickname: "Full stack web developer.",
+  nickname: "Full stack web developer",
   subTitle:
-    "Self-motivated, collaborative, good team-player and always thrive to work on end to end projects and curious to work with experts in computer programming. Looking forward to working with an organisation that utilises these skills to contribute to the organization's success.",
+    "Adaptable, enthusiastic, self-motivated, collaborative, good team-player and always thrive to work on end to end projects and curious to work with experts in computer programming. Looking forward to working with an organisation that utilises these skills to contribute to the organization's success.",
   resumeLink:
-    "https://drive.google.com/file/d/1LzBOLBVnLtX-HGY37Tzz7MZ_yorYdEAf/view?usp=sharing",
+    "https://drive.google.com/file/d/12DqW1JAWvmbuKeBkA7iBlVDYIRIh1Aiz/view?usp=share_link",
 
-  portfolio_repository: "https://github.com/devmanush-forEach/nikhil-portfolio",
+  portfolio_repository:
+    "https://github.com/devmanush-forEach/portfolio-website",
   githubProfile: "https://github.com/devmanush-forEach",
 };
 
@@ -36,7 +37,6 @@ const socialMediaLinks = [
   // github: "https://github.com/devmanush-forEach",
   // linkedin: "https://www.linkedin.com/in/nikhil-shakya-3a1939213",
   // gmail: "shakyanikhil12345@gmail.com",
-
 
   // gitlab: "https://gitlab.com/ashutoshhathidara98",
 
@@ -82,7 +82,6 @@ const socialMediaLinks = [
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/itsme_nikhilshakya/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -152,13 +151,13 @@ const skills = {
             color: "#1572B6",
           },
         },
-        // {
-        //   skillName: "Mern",
-        //   fontAwesomeClassname: "simple-icons:mern",
-        //   style: {
-        //     color: "#CC6699",
-        //   },
-        // },
+        {
+          skillName: "Bootstrap",
+          fontAwesomeClassname: "simple-icons:bootstrap",
+          style: {
+            color: "#712CF9",
+          },
+        },
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
@@ -172,6 +171,34 @@ const skills = {
           fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "Redux",
+          fontAwesomeClassname: "simple-icons:redux",
+          style: {
+            color: "#6A43A9",
+          },
+        },
+        {
+          skillName: "React-Router",
+          fontAwesomeClassname: "simple-icons:reactrouter",
+          style: {
+            color: "#D0021B",
+          },
+        },
+        // {
+        //   skillName: "Styled-Components",
+        //   fontAwesomeClassname: "simple-icons:styledcomponents",
+        //   style: {
+        //     color: "#D0021B",
+        //   },
+        // },
+        {
+          skillName: "MUI",
+          fontAwesomeClassname: "simple-icons:mui",
+          style: {
+            color: "#007FFF",
           },
         },
         {
@@ -189,7 +216,7 @@ const skills = {
           },
         },
         {
-          skillName: "MongoDD",
+          skillName: "MongoDB",
           fontAwesomeClassname: "simple-icons:mongodb",
           style: {
             color: "#2C8EBB",
@@ -202,20 +229,27 @@ const skills = {
             color: "#663399",
           },
         },
-        // {
-        //   skillName: "Flutter",
-        //   fontAwesomeClassname: "simple-icons:flutter",
-        //   style: {
-        //     color: "#02569B",
-        //   },
-        // },
+        {
+          skillName: "GraphQL",
+          fontAwesomeClassname: "simple-icons:graphql",
+          style: {
+            color: "#E10098",
+          },
+        },
+        {
+          skillName: "Git Hub",
+          fontAwesomeClassname: "simple-icons:git",
+          style: {
+            color: "#EF391A",
+          },
+        },
       ],
     },
     // {
     //   title: "Cloud Infra-Architecture",
     //   fileName: "CloudInfraImg",
     //   skills: [
-        
+
     //     "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
     //   ],
     //   softwareSkills: [
@@ -368,20 +402,22 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "St. lawrance Sr. Sec. Public School",
-      subtitle: "High school & Intermediate (in PCM) ",
-      logo_path: "lawrance_logo.png",
-      alt_name: "GPG",
-      duration: "2014 - 2016 & 2016 - 2018",
+      title: "Masai School",
+      subtitle: "Full stack web development course",
+      logo_path: "masai_logo.jpg",
+      alt_name: "Masai School",
+      duration: "August 2021 - March 2022",
       descriptions: [
-        "⚡ Completed my high school and inter education.",
-        "⚡ Apart from this, I have participated in school games competition.",
+        "⚡ I have studied a lot of technical skills of full stack web development.",
+        "⚡ Apart from this, I have also learned soft skills like team-work, time management, communication skills.",
+        "⚡ Developed presentable and fully responsive webpages and applicatoion.",
       ],
-      website_link: "https://school.careers360.com/schools/st-lawrance-public-school-shyam-nagar-farrukhabad",
+      website_link: "https://www.masaischool.com/",
     },
     {
       title: "Government Polytechnic Ghaziabad",
-      subtitle: "Three year diploma in Electronics and Communication Engineering",
+      subtitle:
+        "Three year diploma in Electronics and Communication Engineering",
       logo_path: "gpg_logo.png",
       alt_name: "GPG",
       duration: "2018 - 2021",
@@ -393,17 +429,17 @@ const degrees = {
       website_link: "https://www.gpghaziabad.ac.in/",
     },
     {
-      title: "Masai School",
-      subtitle: "Full stack web development course",
-      logo_path: "masai_logo.jpg",
-      alt_name: "Masai School",
-      duration: "August 2021 - present",
+      title: "St. lawrance Sr. Sec. Public School",
+      subtitle: "High school & Intermediate (in PCM) ",
+      logo_path: "lawrance_logo.png",
+      alt_name: "GPG",
+      duration: "2014 - 2016 & 2016 - 2018",
       descriptions: [
-        "⚡ I have studied a lot of stuff in ful stack web development.",
-        "⚡ Apart from this, I have also learned soft skills like team-work, time management, communication skills.",
-        "⚡ Developed presentable and fully responsive webpages and applicatoion.",
+        "⚡ Completed my high school and inter education.",
+        "⚡ Apart from this, I have participated in school games competition.",
       ],
-      website_link: "https://www.masaischool.com/",
+      website_link:
+        "https://school.careers360.com/schools/st-lawrance-public-school-shyam-nagar-farrukhabad",
     },
   ],
 };
@@ -526,136 +562,114 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "No profressional work experience but I have worked on three collaborative projects in Masai.",
+    "I have 7 months work experience as an Associative software developer at Roado and I have seven months training experience at Masai where I worked on three collaborative projects and two individual projects.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
       experiences: [
-        // {
-        //   title: "Associate AI Engineer",
-        //   company: "Legato Health Technology",
-        //   company_url: "https://legatohealthtech.com/",
-        //   logo_path: "legato_logo.png",
-        //   duration: "June 2020 - PRESENT",
-        //   location: "Hyderabad, Telangana",
-        //   description:
-        //     "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
-        //   color: "#0879bf",
-        // },
-        // {
-        //   title: "Android and ML Developer",
-        //   company: "Muffito Incorporation",
-        //   company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-        //   logo_path: "muffito_logo.png",
-        //   duration: "May 2018 - Oct 2018",
-        //   location: "Pune, Maharashtra",
-        //   description:
-        //     "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-        //   color: "#9b1578",
-        // },
-        // {
-        //   title: "Android Developer",
-        //   company: "FreeCopy Pvt. Ltd.",
-        //   company_url: "https://www.linkedin.com/company/freecopy/about/",
-        //   logo_path: "freecopy_logo.png",
-        //   duration: "Nov 2017 - Dec 2017",
-        //   location: "Ahmedabad, Gujarat",
-        //   description:
-        //     "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-        //   color: "#fc1f20",
-        // },
+        {
+          title: "Associate Software Developer",
+          company: "RoadO",
+          company_url: "https://www.roado.co.in/",
+          logo_path: "roado_logo.png",
+          duration: "April 2022 - October 2022",
+          location: "Bengaluru, Karnataka, ",
+          description:
+            "I was working as an Associative Software developer. My roles were to maintain and update frontend as well as backend side of the webside. There I learned a lot of new tech skills like graphql API and also team work.",
+          color: "#0879bf",
+        },
       ],
     },
-    {
-      title: "Internships",
-      experiences: [
-        // {
-        //   title: "Data Science Research Intern",
-        //   company: "Delhivery Pvt. Ltd.",
-        //   company_url: "https://www.delhivery.com/",
-        //   logo_path: "delhivery_logo.png",
-        //   duration: "May 2019 - Sept 2019",
-        //   location: "Gurgaon, Haryana",
-        //   description:
-        //     "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-        //   color: "#ee3c26",
-        // },
-        // {
-        //   title: "Data Science Intern",
-        //   company: "Intel Indexer LLC",
-        //   company_url:
-        //     "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-        //   logo_path: "intel_logo.jpg",
-        //   duration: "Nov 2018 - Dec 2018",
-        //   location: "Work From Home",
-        //   description:
-        //     "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-        //   color: "#0071C5",
-        // },
-      ],
-    },
-    {
-      title: "Volunteerships",
-      experiences: [
-        // {
-        //   title: "Google Explore ML Facilitator",
-        //   company: "Google",
-        //   company_url: "https://about.google/",
-        //   logo_path: "google_logo.png",
-        //   duration: "June 2019 - April 2020",
-        //   location: "Hyderabad, Telangana",
-        //   description:
-        //     "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-        //   color: "#4285F4",
-        // },
-        // {
-        //   title: "Microsoft Student Partner",
-        //   company: "Microsoft",
-        //   company_url: "https://www.microsoft.com/",
-        //   logo_path: "microsoft_logo.png",
-        //   duration: "Aug 2019 - May 2020",
-        //   location: "Hyderabad, Telangana",
-        //   description:
-        //     "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-        //   color: "#D83B01",
-        // },
-        // {
-        //   title: "Mozilla Campus Captain",
-        //   company: "Mozilla",
-        //   company_url: "https://www.mozilla.org/",
-        //   logo_path: "mozilla_logo.png",
-        //   duration: "Oct 2019 - May 2020",
-        //   location: "Kurnool, Andhra Pradesh",
-        //   description:
-        //     "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-        //   color: "#000000",
-        // },
-        // {
-        //   title: "Developer Students Club Member",
-        //   company: "DSC IIITDM Kurnool",
-        //   company_url:
-        //     "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-        //   logo_path: "dsc_logo.png",
-        //   duration: "Jan 2018 - May 2020",
-        //   location: "Kurnool, Andhra Pradesh",
-        //   description:
-        //     "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-        //   color: "#0C9D58",
-        // },
-        // {
-        //   title: "Developer Program Member",
-        //   company: "Github",
-        //   company_url: "https://github.com/",
-        //   logo_path: "github_logo.png",
-        //   duration: "July 2019 - PRESENT",
-        //   location: "Work From Home",
-        //   description:
-        //     "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-        //   color: "#181717",
-        // },
-      ],
-    },
+    //   {
+    //     title: "Internships",
+    //     experiences: [
+    //       {
+    //         title: "Masai Alumini",
+    //         company: "Masai School",
+    //         company_url: "https://www.delhivery.com/",
+    //         logo_path: "delhivery_logo.png",
+    //         duration: "May 2019 - Sept 2019",
+    //         location: "Gurgaon, Haryana",
+    //         description:
+    //           "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
+    //         color: "#ee3c26",
+    //       },
+    //       {
+    //         title: "Data Science Intern",
+    //         company: "Intel Indexer LLC",
+    //         company_url:
+    //           "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
+    //         logo_path: "intel_logo.jpg",
+    //         duration: "Nov 2018 - Dec 2018",
+    //         location: "Work From Home",
+    //         description:
+    //           "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
+    //         color: "#0071C5",
+    //       },
+    //     ],
+    //   },
+    //   {
+    //     title: "Volunteerships",
+    //     experiences: [
+    //       {
+    //         title: "Google Explore ML Facilitator",
+    //         company: "Google",
+    //         company_url: "https://about.google/",
+    //         logo_path: "google_logo.png",
+    //         duration: "June 2019 - April 2020",
+    //         location: "Hyderabad, Telangana",
+    //         description:
+    //           "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
+    //         color: "#4285F4",
+    //       },
+    //       {
+    //         title: "Microsoft Student Partner",
+    //         company: "Microsoft",
+    //         company_url: "https://www.microsoft.com/",
+    //         logo_path: "microsoft_logo.png",
+    //         duration: "Aug 2019 - May 2020",
+    //         location: "Hyderabad, Telangana",
+    //         description:
+    //           "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
+    //         color: "#D83B01",
+    //       },
+    //       {
+    //         title: "Mozilla Campus Captain",
+    //         company: "Mozilla",
+    //         company_url: "https://www.mozilla.org/",
+    //         logo_path: "mozilla_logo.png",
+    //         duration: "Oct 2019 - May 2020",
+    //         location: "Kurnool, Andhra Pradesh",
+    //         description:
+    //           "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
+    //         color: "#000000",
+    //       },
+    //       {
+    //         title: "Developer Students Club Member",
+    //         company: "DSC IIITDM Kurnool",
+    //         company_url:
+    //           "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
+    //         logo_path: "dsc_logo.png",
+    //         duration: "Jan 2018 - May 2020",
+    //         location: "Kurnool, Andhra Pradesh",
+    //         description:
+    //           "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
+    //         color: "#0C9D58",
+    //       },
+    //       {
+    //         title: "Developer Program Member",
+    //         company: "Github",
+    //         company_url: "https://github.com/",
+    //         logo_path: "github_logo.png",
+    //         duration: "July 2019 - PRESENT",
+    //         location: "Work From Home",
+    //         description:
+    //           "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
+    //         color: "#181717",
+    //       },
+    //     ],
+    //   },
   ],
 };
 
@@ -683,18 +697,18 @@ const contactPageData = {
       "I am available on almost every social site. You can message me, or mail me, I will reply within 24 hours. ",
   },
   blogSection: {
-  //   title: "Blogs",
-  //   subtitle:
-  //     "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-  //   link: "https://ashutoshhathidara.wordpress.com",
-  //   avatar_image_path: "blogs_image.svg",
+    //   title: "Blogs",
+    //   subtitle:
+    //     "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
+    //   link: "https://ashutoshhathidara.wordpress.com",
+    //   avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "Farrukhabad, Uttar Pradesh",
+    subtitle: "Farrukhabad, Uttar Pradesh",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://www.google.com/maps/place/Farrukhabad+Bus+Station/@27.3862466,79.5874611,17z/data=!3m1!4b1!4m5!3m4!1s0x399e304edb3bbb91:0x5c4d97476bc01045!8m2!3d27.3862466!4d79.5896498",
+    location_map_link:
+      "https://www.google.com/maps/place/Farrukhabad+Bus+Station/@27.3862466,79.5874611,17z/data=!3m1!4b1!4m5!3m4!1s0x399e304edb3bbb91:0x5c4d97476bc01045!8m2!3d27.3862466!4d79.5896498",
   },
   phoneSection: {
     title: "Phone Number",

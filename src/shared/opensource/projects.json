@@ -1,72 +1,202 @@
 {
-    "data": [
+  "data": [
+    {
+      "id": "R_kgDOGij2ef",
+      "name": "Lasles-VPN-clone",
+      "createdAt": "2022-11-16T07:03:49Z",
+      "url": "https://github.com/devmanush-forEach/lasles-vpn",
+      "description": "Lasles VPN clone is a single page MERN app with a pixel perfect, fully responsive and user interactive UI. It is an individual project completed in 5 days.",
+      "isFork": false,
+      "img_url": "laslesvpn.png",
+      "website_url": "https://laslesvpn-clone.netlify.app/",
+      "languages": [
         {
-            "id": "R_kgDOGh3FHg",
-            "name": "FrontEndMasters-Website",
-            "createdAt": "2021-12-14T07:31:03Z",
-            "url": "https://github.com/jishanpatel7/FrontEndMasters-Website",
-            "description": "Frontend-Master is E-learning Platform for Learning Frontend Development.",
-            "isFork": false,
-            "img_url" : "frontend.jfif",
-            "website_url": "https://safe-woodland-02335.herokuapp.com/",
-            "languages": [
-                {
-                    "name": "JavaScript",
-                    "iconifyClass": "logos-javascript"
-                },
-                {
-                    "name": "HTML",
-                    "iconifyClass": "logos-html-5"
-                },
-                {
-                    "name": "CSS",
-                    "iconifyClass": "logos-css-3"
-                }
-            ]
+          "name": "React",
+          "iconifyClass": "simple-icons:react",
+          "color": "#61DAFB"
         },
         {
-            "id": "R_kgDOGUiLdg",
-            "name": "Lakme-India-Website",
-            "createdAt": "2021-11-03T10:46:22Z",
-            "url": "https://github.com/jishanpatel7/Lakme-India-Website",
-            "description": "Lakme India is an E-commerce Platform for Beauty and Fashion Products.",
-            "isFork": false,
-            "img_url" : "lakme.png",
-            "website_url": "https://github.com/jishanpatel7/Lakme-India-Website",
-            "languages": [
-                {
-                    "name": "CSS",
-                    "iconifyClass": "logos-css-3"
-                },
-                {
-                    "name": "HTML",
-                    "iconifyClass": "logos-html-5"
-                },
-                {
-                    "name": "JavaScript",
-                    "iconifyClass": "logos-javascript"
-                }
-            ]
+          "name": "redux",
+          "iconifyClass": "simple-icons:redux",
+          "color": "#6A43A9"
         },
         {
-            "id": "R_kgDOGij2EQ",
-            "name": "Youtube-copy",
-            "createdAt": "2021-12-16T07:03:49Z",
-            "url": "https://github.com/devmanush-forEach/Youtube-copy",
-            "description": "It is a clone of youtube website. It is indivisual project",
-            "isFork": false,
-            "img_url" : "youtube_copy.png",
-            "website_url": "https://github.com/devmanush-forEach/Youtube-copy",
-            "languages": [
-                {
-                    "name": "HTML",
-                    "iconifyClass": "logos-html-5"
-                },
-                {
-                    "name": "CSS",
-                    "iconifyClass": "logos-css-3"
-                }
-            ]
+          "name": "React-Router",
+          "iconifyClass": "simple-icons:reactrouter",
+          "color": "#D0021B"
+        },
+        {
+          "name": "Axios",
+          "iconifyClass": "simple-icons:axios",
+          "color": "#5a29e4"
+        },
+        {
+          "name": "MongoDB",
+          "iconifyClass": "simple-icons:mongodb",
+          "color": "#2C8EBB"
+        },
+        {
+          "name": "NodeJS",
+          "iconifyClass": "simple-icons:node-dot-js",
+          "color": "#339933"
+        },
+        {
+          "name": "Express",
+          "iconifyClass": "simple-icons:express",
+          "color": "#663399"
+        },
+        {
+          "name": "Razor Pay",
+          "iconifyClass": "simple-icons:razorpay",
+          "color": "#0a1070"
+        },
+        {
+          "name": "Netlify",
+          "iconifyClass": "simple-icons:netlify",
+          "color": "#46a1be"
         }
-    ]
+      ]
+    },
+    {
+      "id": "R_kgDOGij2EQ",
+      "name": "Bitcs-clone",
+      "createdAt": "2022-02-16T07:03:49Z",
+      "url": "https://github.com/devmanush-forEach/bitcs-clone",
+      "description": "Bitcs-clone is a single page react app with a pixel perfect , fully responsive, and user interactive UI. It is an Individual project completed in 2 days. ",
+      "isFork": false,
+      "img_url": "bitcs.png",
+      "website_url": "https://bitcs-clone-d4752.netlify.app//",
+      "languages": [
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "simple-icons:react",
+          "color": "#61DAFB"
+        },
+        {
+          "name": "redux",
+          "iconifyClass": "simple-icons:redux",
+          "color": "#6A43A9"
+        },
+        {
+          "name": "React-Router",
+          "iconifyClass": "simple-icons:reactrouter",
+          "color": "#D0021B"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOGh3FHg",
+      "name": "Myfitnesspal-clone",
+      "createdAt": "2021-12-14T07:31:03Z",
+      "url": "https://github.com/Ravindraapps/MyFitnesspalCWP",
+      "description": " My fitnesspal is a single page web app where users get their exercise schedule and diet plan according to experts.",
+      "isFork": false,
+      "img_url": "myfitnesspal.png",
+      "website_url": "https://myfitnesspal-clone-2ed873.netlify.app/",
+      "languages": [
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "ReactJS",
+          "iconifyClass": "simple-icons:react",
+          "color": "#61DAFB"
+        },
+        {
+          "name": "Redux",
+          "iconifyClass": "simple-icons:redux",
+          "color": "#6A43A9"
+        },
+        {
+          "name": "React-Router",
+          "iconifyClass": "simple-icons:reactrouter",
+          "color": "#D0021B"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOGh3FHg",
+      "name": "FrontEndMasters-Website",
+      "createdAt": "2021-12-14T07:31:03Z",
+      "url": "https://github.com/jishanpatel7/FrontEndMasters-Website",
+      "description": "Frontend-Master is E-learning Platform for Learning Frontend Development.",
+      "isFork": false,
+      "img_url": "frontend.jfif",
+      "website_url": "https://safe-woodland-02335.herokuapp.com/",
+      "languages": [
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "MongoDB",
+          "iconifyClass": "simple-icons:mongodb",
+          "color": "#2C8EBB"
+        },
+        {
+          "name": "NodeJS",
+          "iconifyClass": "simple-icons:node-dot-js",
+          "color": "#339933"
+        },
+        {
+          "name": "Express",
+          "iconifyClass": "simple-icons:express",
+          "color": "#663399"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOGUiLdg",
+      "name": "Lakme-India-Website",
+      "createdAt": "2021-11-03T10:46:22Z",
+      "url": "https://github.com/jishanpatel7/Lakme-India-Website",
+      "description": "Lakme India is an E-commerce Platform for Beauty and Fashion Products.",
+      "isFork": false,
+      "img_url": "lakme.png",
+      "website_url": "https://lakme-clone-d613cd.netlify.app/",
+      "languages": [
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+      ]
+    }
+  ]
 }

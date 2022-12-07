@@ -30,7 +30,8 @@ class Contact extends Component {
                   src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
                   alt=""
                 /> */}
-                <img className="profile_pic"
+                <img
+                  className="profile_pic"
                   src={require(`../../assests/images/mypic.png`)}
                   alt=""
                 />

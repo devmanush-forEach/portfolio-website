@@ -3,8 +3,8 @@
 }
 
 .basic-contact {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: auto;
+  width: 60%;
 }
 
 .contact-heading-div {
@@ -59,7 +59,7 @@
   height: auto;
 }
 
-.profile_pic{
+.profile_pic {
   border-radius: 400px;
 }
 

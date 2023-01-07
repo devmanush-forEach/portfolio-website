@@ -8,7 +8,7 @@
       "description": "Lasles VPN clone is a single page MERN app with a pixel perfect, fully responsive and user interactive UI. It is an individual project completed in 5 days.",
       "isFork": false,
       "img_url": "laslesvpn.png",
-      "website_url": "http://ec2-3-110-55-252.ap-south-1.compute.amazonaws.com:3000/",
+      "website_url": "http://ec2-65-0-47-21.ap-south-1.compute.amazonaws.com:3000/",
       "languages": [
         {
           "name": "React",

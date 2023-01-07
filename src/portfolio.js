@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "Adaptable, enthusiastic, self-motivated, collaborative, good team-player and always thrive to work on end to end projects and curious to work with experts in computer programming. Looking forward to working with an organisation that utilises these skills to contribute to the organization's success.",
   resumeLink:
-    "https://drive.google.com/file/d/1u6nJS0humWlHeV041NEbiiJzAcioPMfi/view?usp=share_link",
+    "https://drive.google.com/file/d/1-2lkcrILAqanGKysCnXjn-tqEUfFB3Kj/view?usp=share_link",
 
   portfolio_repository:
     "https://github.com/devmanush-forEach/portfolio-website",

@@ -8,6 +8,8 @@
 
 .experience-card-logo-div {
   margin: 10px;
+  display: grid;
+  place-items: center;
 }
 
 .experience-card-body-div {

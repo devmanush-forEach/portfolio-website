@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Nikhil's Portfolio",
   description:
-    "Adaptable, enthusiastic, self-motivated, collaborative, good team-player and always thrive to work on end to end projects and curious to work with experts in computer programming. Looking forward to working with an organisation that utilises these skills to contribute to the organization's success.",
+    "Aspiring tech enthusiast who is keen to learn a variety of skills and is passionate about innovation and perfection",
   og: {
     title: "Nikhil Shakya Portfolio",
     type: "website",
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "Nikhilshakya",
   nickname: "Full stack web developer",
   subTitle:
-    "Adaptable, enthusiastic, self-motivated, collaborative, good team-player and always thrive to work on end to end projects and curious to work with experts in computer programming. Looking forward to working with an organisation that utilises these skills to contribute to the organization's success.",
+    "Aspiring tech enthusiast who is keen to learn a variety of skills and is passionate about innovation and perfection. Adaptable, enthusiastic, self-motivated, collaborative, good team-player and always thrive to work on end to end projects and curious to work with experts in computer programming. Looking forward to working with an organisation that utilises these skills to contribute to the organization's success.",
   resumeLink:
     "https://drive.google.com/file/d/1-2lkcrILAqanGKysCnXjn-tqEUfFB3Kj/view?usp=share_link",
 
@@ -80,61 +80,22 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
-  {
-    name: "Instagram",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
-  },
+  // {
+  //   name: "Instagram",
+  //   fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
+  //   backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  // },
 ];
 
 const skills = {
   data: [
-    // {
-    //   title: "Data Science & AI",
-    //   fileName: "DataScienceImg",
-    //   skills: [
-    //     "⚡ Good analytical abilities to solve aproblem.",
-    //     "⚡ ",
-    //   ],
-    //   softwareSkills: [
-    //     {
-    //       skillName: "JavaScript",
-    //       fontAwesomeClassname: "logos-javascript",
-    //       style: {
-    //         backgroundColor: "transparent",
-    //       },
-    //     },
-    //     // {
-    //     //   skillName: "Keras",
-    //     //   fontAwesomeClassname: "simple-icons:keras",
-    //     //   style: {
-    //     //     backgroundColor: "white",
-    //     //     color: "#D00000",
-    //     //   },
-    //     // },
-    //     // {
-    //     //   skillName: "PyTorch",
-    //     //   fontAwesomeClassname: "logos-pytorch",
-    //     //   style: {
-    //     //     backgroundColor: "transparent",
-    //     //   },
-    //     // },
-    //     // {
-    //     //   skillName: "Python",
-    //     //   fontAwesomeClassname: "ion-logo-python",
-    //     //   style: {
-    //     //     backgroundColor: "transparent",
-    //     //     color: "#3776AB",
-    //     //   },
-    //     // },
-    //   ],
-    // },
     {
-      title: "Full Stack Development",
+      title: "Frontend Tech Skills",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building resposive website front end using React-Redux",
-        "⚡ Creating application backend in NodeJS, Express, & MongoDB",
+        "⚡ Building fully responsive webpages with a pixel perfect UI and UX",
+        "⚡ To optimise webpages to make them faster and reduce initial load time",
+        "⚡ To make webpages SEO friendly for search bots like google crawler",
       ],
       softwareSkills: [
         {
@@ -142,20 +103,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:html5",
           style: {
             color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Bootstrap",
-          fontAwesomeClassname: "simple-icons:bootstrap",
-          style: {
-            color: "#712CF9",
           },
         },
         {
@@ -167,17 +114,53 @@ const skills = {
           },
         },
         {
+          skillName: "TypeScript",
+          fontAwesomeClassname: "simple-icons:typescript",
+          style: {
+            backgroundColor: "#fff",
+            color: "#0076c6",
+          },
+        },
+        {
+          skillName: "CSS3",
+          fontAwesomeClassname: "fa-css3",
+          style: {
+            color: "#1572B6",
+          },
+        },
+        {
+          skillName: "SASS",
+          fontAwesomeClassname: "simple-icons:sass",
+          style: {
+            color: "#ce6b9c",
+          },
+        },
+        {
+          skillName: "Bootstrap",
+          fontAwesomeClassname: "simple-icons:bootstrap",
+          style: {
+            color: "#712CF9",
+          },
+        },
+        {
+          skillName: "MUI",
+          fontAwesomeClassname: "simple-icons:mui",
+          style: {
+            color: "#007FFF",
+          },
+        },
+        {
+          skillName: "Tailwind CSS",
+          fontAwesomeClassname: "simple-icons:tailwindcss",
+          style: {
+            color: "#0eb8d5",
+          },
+        },
+        {
           skillName: "ReactJS",
           fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "Redux",
-          fontAwesomeClassname: "simple-icons:redux",
-          style: {
-            color: "#6A43A9",
           },
         },
         {
@@ -187,39 +170,61 @@ const skills = {
             color: "#D0021B",
           },
         },
+        {
+          skillName: "NextJS",
+          fontAwesomeClassname: "file-icons:nextjs",
+          style: {
+            color: "#000",
+          },
+        },
+        {
+          skillName: "Redux",
+          fontAwesomeClassname: "simple-icons:redux",
+          style: {
+            color: "#6A43A9",
+          },
+        },
         // {
-        //   skillName: "Styled-Components",
-        //   fontAwesomeClassname: "simple-icons:styledcomponents",
+        //   skillName: "Keras",
+        //   fontAwesomeClassname: "simple-icons:keras",
         //   style: {
-        //     color: "#D0021B",
+        //     backgroundColor: "white",
+        //     color: "#D00000",
         //   },
         // },
-        {
-          skillName: "MUI",
-          fontAwesomeClassname: "simple-icons:mui",
-          style: {
-            color: "#007FFF",
-          },
-        },
+        // {
+        //   skillName: "PyTorch",
+        //   fontAwesomeClassname: "logos-pytorch",
+        //   style: {
+        //     backgroundColor: "transparent",
+        //   },
+        // },
+        // {
+        //   skillName: "Python",
+        //   fontAwesomeClassname: "ion-logo-python",
+        //   style: {
+        //     backgroundColor: "transparent",
+        //     color: "#3776AB",
+        //   },
+        // },
+      ],
+    },
+    {
+      title: "Backend Tech skills",
+      // fileName: "FullStackImg",
+      // fileName: "DesignImg",
+      fileName: "DataScienceImg",
+      skills: [
+        "⚡ Building REST APIs in an optimised way with less response time",
+        "⚡ Build APIs with a secured user authentication and autherization",
+        "⚡ Build APIs to communicate with databbases and provide appropriate responses",
+      ],
+      softwareSkills: [
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: "logos:nodejs",
           style: {
             color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#2C8EBB",
           },
         },
         {
@@ -237,10 +242,63 @@ const skills = {
           },
         },
         {
-          skillName: "Git Hub",
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: {
+            color: "#4a9d4b",
+          },
+        },
+        {
+          skillName: "Mongoose",
+          fontAwesomeClassname: "simple-icons:mongoose",
+          style: {
+            color: "#8d0808",
+          },
+        },
+        {
+          skillName: "Redis",
+          fontAwesomeClassname: "simple-icons:redis",
+          style: {
+            color: "#d93127",
+          },
+        },
+        {
+          skillName: "MySQL",
+          fontAwesomeClassname: "simple-icons:mysql",
+          style: {
+            color: "#4a7da4",
+          },
+        },
+        {
+          skillName: "NPM",
+          fontAwesomeClassname: "simple-icons:npm",
+          style: {
+            color: "#CB3837",
+          },
+        },
+      ],
+    },
+    {
+      title: "Version Control Systems",
+      fileName: "DesignImg",
+      // fileName: "CloudInfraImg",
+      skills: [
+        "⚡ To manage versions and updates in projects",
+        "⚡ To provide a better way for debugging the code base",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Git",
           fontAwesomeClassname: "simple-icons:git",
           style: {
             color: "#EF391A",
+          },
+        },
+        {
+          skillName: "Git Hub",
+          fontAwesomeClassname: "simple-icons:github",
+          style: {
+            color: "#000",
           },
         },
       ],
@@ -562,21 +620,43 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have 7 months work experience as an Associative software developer at Roado and I have seven months training experience at Masai where I worked on three collaborative projects and two individual projects.",
+    "I have 2 and a half years of experience as a MERN stack developer. During this time I learned a lot of techie stuff and also got better at working with others. and gained confidence in my skills and problem-solving strategies. I get to know how to work with a team and how to overcome problems.",
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Work",
+      title: "Work Experience",
       experiences: [
+        {
+          title: "Senior Software Developer",
+          company: "Ubuy India Pvt. Ltd.",
+          company_url: "https://www.ubuy.com/",
+          logo_path: "Ubuy-Logo.png",
+          duration: "March 2023 - present",
+          location: "Jaipur, Rajasthan",
+          description:
+            "Here I am working on a world class e-commerce web app from scratch which is live in more than 50 countries. This is a MERN stack web app. I have developed more than 80% of the frontend web app  in NEXTJs with Tailwind CSS and in Typescript. Also I have managed database queries in backend APIs.",
+          color: "#0879bf",
+        },
         {
           title: "Associate Software Developer",
           company: "RoadO",
           company_url: "https://www.roado.co.in/",
           logo_path: "roado_logo.png",
-          duration: "April 2022 - October 2022",
-          location: "Bengaluru, Karnataka, ",
+          duration: "April 2022 - March 2023",
+          location: "Bengaluru, Karnataka",
           description:
             "I was working as an Associative Software developer. My roles were to maintain and update frontend as well as backend side of the webside. There I learned a lot of new tech skills like graphql API and also team work.",
+          color: "#0879bf",
+        },
+        {
+          title: "MERN Stack Training",
+          company: "Masai School",
+          company_url: "https://www.masaischool.com/",
+          logo_path: "masai_logo.png",
+          duration: "August 2021 - March 2022",
+          location: "Bengaluru, Karnataka",
+          description:
+            "Completed in-depth MERN stack training, developing a broad range of skills and actively participating in more than 25 MERN stack solo projects as well as group projects.",
           color: "#0879bf",
         },
       ],
@@ -677,7 +757,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "I have created two fully functional websites with my team and also I have created many minor projects at masai in frontend as well as in backend. ",
+    "From last two and half years I have worked on a lot of projects as follows and currently I am working on a multicountry e-commerce web app at UBUY in  MERN stack as a senior software developer",
   avatar_image_path: "projects_image.svg",
 };
 

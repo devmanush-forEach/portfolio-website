@@ -1,6 +1,58 @@
 {
   "data": [
     {
+      "id": "ubuy_tuvalu_list",
+      "name": "UBUY",
+      "createdAt": "2023-01-16T07:03:49Z",
+      "url": "",
+      "description": "Ubuy is a multi-country e-commerce web app created in MERN stack. Here you can buy international products from anywhere",
+      "isFork": false,
+      "img_url": "ubuy_listpage.png",
+      "website_url": "https://www.u-buy.tv/en/search/knife",
+      "languages": [
+        {
+          "name": "Typescript",
+          "iconifyClass": "simple-icons:typescript",
+          "color": "#0076c6"
+        },
+        {
+          "name": "Next JS",
+          "iconifyClass": "file-icons:nextjs",
+          "color": "#000"
+        },
+        {
+          "name": "redux",
+          "iconifyClass": "simple-icons:redux",
+          "color": "#6A43A9"
+        },
+        {
+          "name": "Tailwind CSS",
+          "iconifyClass": "simple-icons:tailwindcss",
+          "color": "#0eb8d5"
+        },
+        {
+          "name": "NodeJS",
+          "iconifyClass": "logos:nodejs",
+          "color": "#339933"
+        },
+        {
+          "name": "Express",
+          "iconifyClass": "simple-icons:express",
+          "color": "#663399"
+        },
+        {
+          "name": "MongoDB",
+          "iconifyClass": "simple-icons:mongodb",
+          "color": "#2C8EBB"
+        },
+        {
+          "name": "My SQL",
+          "iconifyClass": "simple-icons:mysql",
+          "color": "#4a7da4"
+        }
+      ]
+    },
+    {
       "id": "R_kgDOGij2ef",
       "name": "Lasles-VPN-clone",
       "createdAt": "2022-11-16T07:03:49Z",
@@ -37,7 +89,7 @@
         },
         {
           "name": "NodeJS",
-          "iconifyClass": "simple-icons:node-dot-js",
+          "iconifyClass": "logos:nodejs",
           "color": "#339933"
         },
         {
@@ -93,6 +145,11 @@
           "name": "React-Router",
           "iconifyClass": "simple-icons:reactrouter",
           "color": "#D0021B"
+        },
+        {
+          "name": "NodeJS",
+          "iconifyClass": "logos:nodejs",
+          "color": "#339933"
         }
       ]
     },
@@ -132,6 +189,11 @@
           "name": "React-Router",
           "iconifyClass": "simple-icons:reactrouter",
           "color": "#D0021B"
+        },
+        {
+          "name": "NodeJS",
+          "iconifyClass": "logos:nodejs",
+          "color": "#339933"
         }
       ]
     },
@@ -164,7 +226,7 @@
         },
         {
           "name": "NodeJS",
-          "iconifyClass": "simple-icons:node-dot-js",
+          "iconifyClass": "logos:nodejs",
           "color": "#339933"
         },
         {

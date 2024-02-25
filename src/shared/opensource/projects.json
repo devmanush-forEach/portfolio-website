@@ -60,7 +60,7 @@
       "description": "Lasles VPN clone is a single page MERN app with a pixel perfect, fully responsive and user interactive UI. It is an individual project completed in 5 days.",
       "isFork": false,
       "img_url": "laslesvpn.png",
-      "website_url": "http://ec2-65-0-47-21.ap-south-1.compute.amazonaws.com:3000/",
+      "website_url": "https://laslesvpn-clone.netlify.app/",
       "languages": [
         {
           "name": "React",
@@ -106,6 +106,45 @@
           "name": "Netlify",
           "iconifyClass": "simple-icons:netlify",
           "color": "#46a1be"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDH78vbj2EQ",
+      "name": "Bitcs-clone-beta",
+      "createdAt": "2022-08-27T09:34:06Z",
+      "url": "https://github.com/devmanush-forEach/bitcs_clone_beta",
+      "description": "Bitcs-clone-beta is an upgraded version of bitcs web app. It is an Individual project completed in 8 days. ",
+      "isFork": false,
+      "img_url": "bitcs-beta.png",
+      "website_url": "https://bitcsclone.netlify.app/",
+      "languages": [
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "simple-icons:react",
+          "color": "#61DAFB"
+        },
+        {
+          "name": "redux",
+          "iconifyClass": "simple-icons:redux",
+          "color": "#6A43A9"
+        },
+        {
+          "name": "React-Router",
+          "iconifyClass": "simple-icons:reactrouter",
+          "color": "#D0021B"
         }
       ]
     },
